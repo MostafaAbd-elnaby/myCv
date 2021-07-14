@@ -10997,3 +10997,29 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+/* Portfolio */
+.box {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 5px 5px 2px #ddd;
+  margin-bottom: 20px;
+  max-width: 85%;
+}
+.box img {
+  max-width: 100%;
+  transition: 0.3s;
+}
+.box:hover img{
+  transform: rotate(-3deg) scale(1.05);
+}
+.box .caption{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #FFF;
+  bottom: -84px;
+  padding: 12px;
+  transition: 0.3s;
+}
+.box:hover .caption{bottom: 0;}
+.box .caption a{text-decoration: none;margin-left: 5px;}
